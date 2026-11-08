@@ -1,0 +1,11 @@
+{
+  "dataset": "marmousi",
+  "observed_file": "observed.pt",
+  "reference_file": "reference_clean.pt",
+  "n_shots": 256,
+  "n_receivers": 256,
+  "nt": 768,
+  "dt_seconds": 0.008,
+  "dx_meters": 25.0,
+  "reference_usage": "evaluation only"
+}

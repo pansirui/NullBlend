@@ -1,0 +1,28 @@
+{
+  "method": "NullBlend",
+  "epochs": 200,
+  "seed": 20260818,
+  "ema_enabled": false,
+  "teacher_update_period": 8,
+  "parameter_count": 1321121,
+  "input_channels": 8,
+  "tafa_features": [
+    "self",
+    "aligned_mean"
+  ],
+  "shot_shifts": [
+    1,
+    -1,
+    2,
+    -2,
+    4,
+    -4,
+    8,
+    -8
+  ],
+  "overall_snr_db": {
+    "mobil": 26.76445770263672,
+    "seam": 22.93248748779297,
+    "marmousi": 30.255144119262695
+  }
+}

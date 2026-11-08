@@ -1,0 +1,11 @@
+{
+  "dataset": "seam",
+  "observed_file": "observed.pt",
+  "reference_file": "reference_clean.pt",
+  "n_shots": 256,
+  "n_receivers": 120,
+  "nt": 2048,
+  "dt_seconds": 0.008,
+  "dx_meters": 20.0,
+  "reference_usage": "evaluation only"
+}
