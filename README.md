@@ -26,8 +26,7 @@ targets from their reblended measurements **y**<sub>δ</sub>.
 
 ## Installation and training
 
-Python 3.10+ with PyTorch and Matplotlib is required. The bundled runs used
-Python 3.14 and PyTorch 2.11.0+cu128 on an NVIDIA RTX 5090.
+Python 3.10+ with PyTorch and Matplotlib is required.
 
 ```bash
 python run_nullblend.py --dataset mobil --device cuda:0
