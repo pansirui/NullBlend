@@ -17,10 +17,7 @@ interference from overlapping shots. The colored traces follow shots 112,
 
 ![NullBlend architecture with range-space and null-space reconstruction and a self-supervised training loop](figs/fig3.png)
 
-The deblending network combines a range-space reconstruction with a learned
-null-space reconstruction. The estimated wavefield is transformed to generate
-self-supervised training targets, and the network learns to recover those
-targets from their reblended measurements.
+Overall architecture of the proposed NullBlend approach. The deblending network $\mathcal{D}_{\theta}$ combines the range-space reconstruction module with a learned null-space reconstruction module. The estimated wavefield $\hat{\mathbf{x}}$ is transformed to generate self-supervised training targets $\mathbf{x}_{\delta}$. The deblending network $\mathcal{D}_{\theta}$ is then optimized to recover these targets from their reblended measurements $\mathbf{y}_{\delta}$.
 
 ## Installation and training
 
