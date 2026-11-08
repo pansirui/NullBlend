@@ -34,6 +34,8 @@ python run_nullblend.py --dataset seam --device cuda:0
 python run_nullblend.py --dataset marmousi --device cuda:0
 ```
 
+Download the datasets at https://drive.google.com/drive/folders/1dmqDBCVbtocsXmA7UTAqaBzXEEXaskJ8?usp=sharing. If you have any questions, please contact me at pansr24@mails.jlu.edu.cn.
+
 ## Experimental Results
 
 | Dataset | Overall S/N (dB) |
