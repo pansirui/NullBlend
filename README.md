@@ -30,7 +30,6 @@ Python 3.10+ with PyTorch and Matplotlib is required. The bundled runs used
 Python 3.14 and PyTorch 2.11.0+cu128 on an NVIDIA RTX 5090.
 
 ```bash
-python -m pip install -r requirements.txt
 python run_nullblend.py --dataset mobil --device cuda:0
 python run_nullblend.py --dataset seam --device cuda:0
 python run_nullblend.py --dataset marmousi --device cuda:0
